@@ -111,6 +111,13 @@ name {
   position: relative;
 }
 
+.one img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
 .two {
   width: 160px;
   height: 160px;
