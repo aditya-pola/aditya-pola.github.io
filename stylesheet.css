@@ -105,26 +105,58 @@ name {
   font-size: 32px;
 }
 
+.publications {
+  table-layout: fixed;
+}
+
+.publications td:first-child {
+  width: 40%;
+}
+
+.publications td:last-child {
+  width: 60%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
 .one {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1;
   position: relative;
 }
 
 .one img {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   background-color: #ffffff;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .publications tr,
+  .publications td {
+    display: block;
+  }
+
+  .publications td:first-child,
+  .publications td:last-child {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .publications .one {
+    margin: 0 auto;
+  }
 }
 
 .fade {
