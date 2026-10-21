@@ -115,11 +115,11 @@ name {
 }
 
 .publications td:first-child {
-  width: 50%;
+  width: 44%;
 }
 
 .publications td:last-child {
-  width: 50%;
+  width: 56%;
   padding-left: 20px;
   box-sizing: border-box;
 }
@@ -134,7 +134,7 @@ name {
 
 .one {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   position: relative;
 }
 
