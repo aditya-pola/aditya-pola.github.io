@@ -74,6 +74,10 @@ a:hover {
   text-decoration: none;
 }
 
+body {
+  zoom: 1.5;
+}
+
 body,
 td,
 th,
@@ -155,7 +159,7 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .publications tr,
   .publications td {
     display: block;
